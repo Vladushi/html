@@ -1,0 +1,17 @@
+body{
+    background-color: whitesmoke;
+}
+p{
+    margin-left: 30px;
+    background-color: lightgray;
+    padding: 8px;
+    display: inline;
+    font-size: 30px;
+
+}
+h2{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: dimgray;
+}
