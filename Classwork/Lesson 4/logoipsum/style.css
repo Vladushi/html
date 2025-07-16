@@ -199,13 +199,25 @@ header nav ul a {
     justify-content: space-between;
     align-items: center;
     margin: 150px 0 150px 0;
-    gap: 75px;
+}
+
+.metrics h3 {
+    padding: 7px 0 20px 0;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 97px;
 }
 
 /*----------------------benchmark--------------------------------*/
 .benchmark img {
     width: 114px;
     height: 64px;
+    margin: 20px 7px 13px 30px;
 }
 
 .benchmark {
@@ -224,8 +236,6 @@ header nav ul a {
     font-weight: 700;
     line-height: 36px;
     letter-spacing: -0.75px;
-    margin: 20px 0 20px 0;
-
 }
 
 .benchmark p {
@@ -243,7 +253,7 @@ header nav ul a {
 .calculator img {
     width: 91px;
     height: 72px;
-    flex-shrink: 0;
+    margin: 12px 10px 13px 50px;
 }
 
 .calculator {
@@ -262,7 +272,6 @@ header nav ul a {
     font-weight: 700;
     line-height: 36px;
     letter-spacing: -0.75px;
-    margin: 20px 0 20px 0;
 }
 
 .calculator p {
@@ -281,7 +290,7 @@ header nav ul a {
 .camera img {
     width: 118px;
     height: 63px;
-    flex-shrink: 0;
+    margin: 21px 16px 13px 17px;
 }
 
 .camera {
@@ -300,7 +309,6 @@ header nav ul a {
     font-weight: 700;
     line-height: 36px;
     letter-spacing: -0.75px;
-    margin: 20px 0 20px 0;
 }
 
 .camera p {
@@ -313,3 +321,4 @@ header nav ul a {
     letter-spacing: -0.5px;
     width: 307px;
 }
+
