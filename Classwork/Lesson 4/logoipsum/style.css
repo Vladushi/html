@@ -322,3 +322,43 @@ header nav ul a {
     width: 307px;
 }
 
+/*---------------------------------get plan---------------------------*/
+
+.get-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-plan h2 {
+    width: 523px;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+}
+
+.get-plan-buttons {
+    width: 344px;
+    height: 65px;
+    border-radius: 10px;
+    background: #F7F7FB;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.yearly-button {
+    width: 160px;
+    height: 55px;
+    border-radius: 10px 0 0 10px;
+    background: #5454D4;
+    margin-left: 6px;
+}
+
+
+
