@@ -328,6 +328,7 @@ header nav ul a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .get-plan h2 {
@@ -337,20 +338,19 @@ header nav ul a {
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 70px; /* 116.667% */
+    line-height: 70px;
     letter-spacing: -1.876px;
 }
 
-.get-plan-buttons {
+.main-button {
     width: 344px;
     height: 65px;
     border-radius: 10px;
     background: #F7F7FB;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 }
-
 
 .yearly-button {
     width: 160px;
@@ -358,7 +358,268 @@ header nav ul a {
     border-radius: 10px 0 0 10px;
     background: #5454D4;
     margin-left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.yearly-button p {
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
 
+.monthly-button {
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monthly-button p {
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+
+}
+
+/*---------------------------------------plans-container----------------------------------*/
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 158px;
+}
+
+.container-started {
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    margin-top: 98px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-premium {
+    width: 376px;
+    height: 473px;
+    border-radius: 10px;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    margin-top: 82px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-enterprise {
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    margin-top: 98px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-started h4 {
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+    margin-top: 34px;
+}
+
+.container-started h2 {
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    margin: 22px 0 28px 0;
+}
+
+.container-started p {
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+    width: 118px;
+    height: 150px;
+}
+
+.container-started button {
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    margin: 36px 0 27px 0;
+}
+
+.container-premium h4 {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+    margin-top: 50px;
+}
+
+.container-premium h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    margin: 22px 0 28px 0;
+}
+
+.container-premium span {
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+
+.container-premium p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+    width: 131px;
+    height: 150px;
+}
+
+.container-premium button {
+    width: 305px;
+    height: 60px;
+    border-radius: 10px;
+    background: #9F3919;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    border: none;
+    margin: 36px 0 43px 0;
+}
+
+.container-enterprise {
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
+
+.container-enterprise h4 {
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+    margin-top: 34px;
+}
+
+.container-enterprise h2 {
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    margin: 22px 0 28px 0;
+}
+
+.container-enterprise span {
+    color: #1D293F;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+
+.container-enterprise p {
+    width: 136px;
+    height: 150px;
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+
+.container-enterprise button {
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    margin: 36px 0 27px 0;
+}
