@@ -1,0 +1,13 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .cards {
+        flex-wrap: wrap;
+        width: 720px;
+        gap: 24px;
+    }
+
+    .card {
+        width: 348px;
+        margin-bottom: 16px;
+
+    }
+}
